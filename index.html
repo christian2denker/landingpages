@@ -1,83 +1,74 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ApptiveFleet – Fahrzeugflotte einfach verwalten</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-50 text-gray-800">
-  <!-- Header -->
-  <header class="bg-white shadow">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold text-blue-600">ApptiveFleet</h1>
-      <nav class="space-x-4">
-        <a href="#features" class="text-gray-600 hover:text-blue-600">Funktionen</a>
-        <a href="#pricing" class="text-gray-600 hover:text-blue-600">Preise</a>
-        <a href="#kontakt" class="text-gray-600 hover:text-blue-600">Kontakt</a>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexibel. Anpassbar. Ihre Fuhrparksoftware | ApptiveFleet</title>
+    <meta name="description" content="Die No-Code Fuhrparksoftware von ApptiveFleet ist individuell anpassbar und ideal für KMU. Jetzt Demo anfordern!" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" />
+    <style>
+      :root {
+        --primary: #023047;
+        --accent: #fb8500;
+        --secondary: #8ecae6;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <!-- Header -->
+    <header class="bg-[#023047] text-white">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <img src="https://cdn.prod.website-files.com/67b74211db8fc58afe27ff68/67bc2f7690c7a96638c8c081_apptive_fleet_logo.svg" alt="ApptiveFleet Logo" class="h-8">
+        <a href="#cta" class="bg-white text-[#023047] px-4 py-2 rounded-lg font-semibold hover:bg-gray-100">Demo anfordern</a>
+      </div>
+    </header>
 
-  <!-- Hero -->
-  <section class="bg-blue-600 text-white py-20">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold mb-4">Fahrzeugflotten digital verwalten</h2>
-      <p class="mb-8 text-lg">Mit ApptiveFleet organisieren Sie Ihre Flotte effizient, flexibel und DSGVO-konform.</p>
-      <a href="#kontakt" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100">Jetzt Demo anfragen</a>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="bg-[#8ecae6] py-16">
+      <div class="max-w-5xl mx-auto px-6 text-center text-[#023047]">
+        <h2 class="text-4xl font-bold mb-4">Ihre Fuhrparksoftware – so flexibel wie Ihr Unternehmen</h2>
+        <p class="text-xl mb-8">Mit unserer No-Code-Plattform verwalten Sie Ihren Fuhrpark individuell und ohne Programmierkenntnisse. Ideal für kleine und mittlere Unternehmen.</p>
+        <a href="#cta" class="bg-[#fb8500] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#ff9d2c]">Jetzt kostenlos testen</a>
+      </div>
+    </section>
 
-  <!-- Features -->
-  <section id="features" class="py-16 bg-white">
-    <div class="container mx-auto px-6">
-      <h3 class="text-2xl font-bold text-center mb-12">Funktionen im Überblick</h3>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-gray-100 p-6 rounded shadow">
-          <h4 class="text-xl font-semibold mb-2">Fahrer- & Fahrzeugverwaltung</h4>
-          <p>Behalten Sie stets den Überblick über alle Fahrzeuge, Fahrten und zugehörige Fahrerprofile.</p>
+    <!-- Vorteile -->
+    <section class="py-16">
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center">
+        <div>
+          <h3 class="text-xl font-semibold mb-2 text-[#023047]">Anpassbar ohne Code</h3>
+          <p>Erstellen Sie Formulare, Ansichten und Workflows ganz ohne IT-Abteilung.</p>
         </div>
-        <div class="bg-gray-100 p-6 rounded shadow">
-          <h4 class="text-xl font-semibold mb-2">Führerscheinkontrolle</h4>
-          <p>Automatisierte Prüfprozesse mit Erinnerung und Dokumentation.</p>
+        <div>
+          <h3 class="text-xl font-semibold mb-2 text-[#023047]">Wächst mit Ihrem Fuhrpark</h3>
+          <p>Egal ob 5 oder 500 Fahrzeuge – ApptiveFleet passt sich an.</p>
         </div>
-        <div class="bg-gray-100 p-6 rounded shadow">
-          <h4 class="text-xl font-semibold mb-2">Digitale Fahrzeugakte</h4>
-          <p>Wartungen, Schäden, Dokumente – alles zentral und jederzeit abrufbar.</p>
+        <div>
+          <h3 class="text-xl font-semibold mb-2 text-[#023047]">Schnell startklar</h3>
+          <p>Innerhalb weniger Tage einsatzbereit – mit persönlichem Support.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Pricing -->
-  <section id="pricing" class="py-16 bg-gray-50">
-    <div class="container mx-auto px-6 text-center">
-      <h3 class="text-2xl font-bold mb-12">Preise</h3>
-      <p class="text-lg mb-6">Flexible Lizenzmodelle – passend für kleine und große Flotten.</p>
-      <div class="inline-block bg-white p-8 rounded shadow">
-        <p class="text-3xl font-bold text-blue-600 mb-2">ab 2,50 € / Fahrzeug</p>
-        <p class="text-gray-600 mb-4">monatlich, zzgl. MwSt.</p>
-        <a href="#kontakt" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Unverbindlich anfragen</a>
+    <!-- Kundenstimme -->
+    <section class="bg-gray-100 py-12">
+      <div class="max-w-3xl mx-auto px-6 text-center">
+        <p class="text-xl italic">„Wir konnten unsere Prozesse mit ApptiveFleet endlich genau so abbilden, wie wir es brauchen – ohne Programmierung!“</p>
+        <p class="mt-4 font-semibold text-[#023047]">– Markus Klein, Fuhrparkleiter eines mittelständischen Betriebs</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Kontakt -->
-  <section id="kontakt" class="py-16 bg-white">
-    <div class="container mx-auto px-6 max-w-xl">
-      <h3 class="text-2xl font-bold text-center mb-8">Kontakt aufnehmen</h3>
-      <form class="space-y-4">
-        <input type="text" placeholder="Name" class="w-full p-3 border border-gray-300 rounded" />
-        <input type="email" placeholder="E-Mail" class="w-full p-3 border border-gray-300 rounded" />
-        <textarea placeholder="Nachricht" rows="4" class="w-full p-3 border border-gray-300 rounded"></textarea>
-        <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700">Absenden</button>
-      </form>
-    </div>
-  </section>
+    <!-- Call to Action -->
+    <section id="cta" class="py-16 bg-[#023047] text-white text-center">
+      <h2 class="text-3xl font-bold mb-4">Bereit für die flexible Fuhrparkverwaltung?</h2>
+      <p class="text-lg mb-6">Starten Sie jetzt kostenlos oder vereinbaren Sie eine persönliche Demo.</p>
+      <a href="https://www.apptivefleet.de/kontakt" class="bg-white text-[#023047] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Demo anfordern</a>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
-    © 2025 ApptiveFleet. Alle Rechte vorbehalten.
-  </footer>
-</body>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center text-sm">
+      &copy; 2025 ApptiveFleet – Eine Marke von ApptiveGrid. Alle Rechte vorbehalten.
+    </footer>
+  </body>
 </html>
