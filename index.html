@@ -12,6 +12,18 @@
         --primary: #023047;
         --accent: #fb8500;
         --secondary: #8ecae6;
+        --cta: #FF463A;
+      }
+      .btn-cta {
+        background-color: #FF463A;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        transition: background-color 0.2s ease-in-out;
+      }
+      .btn-cta:hover {
+        background-color: #e53a2d;
       }
     </style>
   </head>
@@ -20,7 +32,7 @@
     <header class="bg-[#023047] text-white">
       <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <img src="https://cdn.prod.website-files.com/67b74211db8fc58afe27ff68/67bc2f7690c7a96638c8c081_apptive_fleet_logo.svg" alt="ApptiveFleet Logo" class="h-8">
-        <a href="#cta" class="bg-white text-[#023047] px-4 py-2 rounded-lg font-semibold hover:bg-gray-100">Demo anfordern</a>
+        <a href="#cta" class="btn-cta">Demo anfordern</a>
       </div>
     </header>
 
@@ -29,7 +41,7 @@
       <div class="max-w-5xl mx-auto px-6 text-center text-[#023047]">
         <h2 class="text-4xl font-bold mb-4">Ihre Fuhrparksoftware – so flexibel wie Ihr Unternehmen</h2>
         <p class="text-xl mb-8">Mit unserer No-Code-Plattform verwalten Sie Ihren Fuhrpark individuell und ohne Programmierkenntnisse. Ideal für kleine und mittlere Unternehmen.</p>
-        <a href="#cta" class="bg-[#fb8500] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#ff9d2c]">Jetzt kostenlos testen</a>
+        <a href="#cta" class="btn-cta">Jetzt kostenlos testen</a>
       </div>
     </section>
 
@@ -60,10 +72,10 @@
     </section>
 
     <!-- Call to Action -->
-    <section id="cta" class="py-16 bg-[#023047] text-white text-center">
+    <section id="cta" class="py-16 bg-[#023047] text-[#023047] text-center">
       <h2 class="text-3xl font-bold mb-4">Bereit für die flexible Fuhrparkverwaltung?</h2>
       <p class="text-lg mb-6">Starten Sie jetzt kostenlos oder vereinbaren Sie eine persönliche Demo.</p>
-      <a href="https://www.apptivefleet.de/kontakt" class="bg-white text-[#023047] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Demo anfordern</a>
+      <a href="https://www.apptivefleet.de/kontakt" class="btn-cta">Demo anfordern</a>
     </section>
 
     <!-- Footer -->
